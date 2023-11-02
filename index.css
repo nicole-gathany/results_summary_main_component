@@ -25,3 +25,45 @@
 .out-of-hundred {
     color: hsla(0, 0%, 100%, 0.475);
 }
+
+#summary-title {
+  font-weight: 800;
+}
+
+#reaction {
+  background-color: hsla(0, 100%, 67%, 0.116);
+}
+
+#reaction-text {
+    color: hsl(0, 100%, 67%);
+   
+  }
+
+#memory {
+ 
+ background-color: hsl(39, 100%, 56%, 0.116);
+}
+
+#memory-text {
+    color: hsl(39, 100%, 56%);
+    
+   }
+
+#verbal{
+ 
+  background-color: hsl(166, 100%, 37%, 0.116);
+}
+
+#verbal-text{
+    color: hsl(166, 100%, 37%);
+    
+  }
+#visual{
+ 
+  background-color: hsl(234, 85%, 45%, 0.116);
+}
+
+#visual-text{
+    color: hsl(234, 85%, 45%);
+  
+  }
