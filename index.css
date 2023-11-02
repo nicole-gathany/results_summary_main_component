@@ -1,29 +1,29 @@
- html * {
-    font-family: 'Hanken Grotesk';
+html * {
+  font-family: "Hanken Grotesk";
 }
 .result {
-    background-color: hsl(252, 100%, 67%);
-    text-align: center;
+  background-color: hsl(252, 100%, 67%);
+  text-align: center;
 }
 
 .total-score {
-    color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 .qualitative-comparison-title {
-    color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
 .qualitative-comparison {
-    color: hsla(0, 0%, 100%, 0.475);
+  color: hsla(0, 0%, 100%, 0.475);
 }
 
 .your-result {
-   color: hsla(0, 0%, 100%, 0.475);
+  color: hsla(0, 0%, 100%, 0.475);
 }
 
 .out-of-hundred {
-    color: hsla(0, 0%, 100%, 0.475);
+  color: hsla(0, 0%, 100%, 0.475);
 }
 
 #summary-title {
@@ -35,35 +35,28 @@
 }
 
 #reaction-text {
-    color: hsl(0, 100%, 67%);
-   
-  }
+  color: hsl(0, 100%, 67%);
+}
 
 #memory {
- 
- background-color: hsl(39, 100%, 56%, 0.116);
+  background-color: hsl(39, 100%, 56%, 0.116);
 }
 
 #memory-text {
-    color: hsl(39, 100%, 56%);
-    
-   }
+  color: hsl(39, 100%, 56%);
+}
 
-#verbal{
- 
+#verbal {
   background-color: hsl(166, 100%, 37%, 0.116);
 }
 
-#verbal-text{
-    color: hsl(166, 100%, 37%);
-    
-  }
-#visual{
- 
+#verbal-text {
+  color: hsl(166, 100%, 37%);
+}
+#visual {
   background-color: hsl(234, 85%, 45%, 0.116);
 }
 
-#visual-text{
-    color: hsl(234, 85%, 45%);
-  
-  }
+#visual-text {
+  color: hsl(234, 85%, 45%);
+}
