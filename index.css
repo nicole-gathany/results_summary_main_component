@@ -1,3 +1,27 @@
+ html * {
+    font-family: 'Hanken Grotesk';
+}
 .result {
-    background-color: aquamarine;
+    background-color: hsl(252, 100%, 67%);
+    text-align: center;
+}
+
+.total-score {
+    color: hsl(0, 0%, 100%);
+}
+
+.qualitative-comparison-title {
+    color: hsl(0, 0%, 100%);
+}
+
+.qualitative-comparison {
+    color: hsla(0, 0%, 100%, 0.475);
+}
+
+.your-result {
+   color: hsla(0, 0%, 100%, 0.475);
+}
+
+.out-of-hundred {
+    color: hsla(0, 0%, 100%, 0.475);
 }
