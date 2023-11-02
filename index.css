@@ -60,3 +60,12 @@ html * {
 #visual-text {
   color: hsl(234, 85%, 45%);
 }
+
+.percentage{
+    font-weight: 800;
+}
+
+.out-of-hundred-summary {
+    font-weight: 800;
+    color: hsla(224, 30%, 27%, 0.614);
+}
