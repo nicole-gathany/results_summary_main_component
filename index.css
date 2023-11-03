@@ -34,7 +34,6 @@ body {
     margin-left: 39px;
     margin-bottom: 32px;
     margin-top: -8px;
-    
   }
 
   button {
@@ -48,13 +47,12 @@ body {
   border-radius: 25px;
   width: 300px;
   height: 377px;
-  
 }
 
 .your-result {
-    color: hsla(0, 0%, 100%, 0.475);
-    font-size: 18px;
-  }
+  color: hsla(0, 0%, 100%, 0.475);
+  font-size: 18px;
+}
 
 #score-circle {
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
@@ -72,9 +70,9 @@ body {
 }
 
 .out-of-hundred {
-    color: hsla(0, 0%, 100%, 0.475);
-    margin-top: 0px;
-  }
+  color: hsla(0, 0%, 100%, 0.475);
+  margin-top: 0px;
+}
 
 .qualitative-comparison-title {
   color: hsl(0, 0%, 100%);
@@ -87,9 +85,7 @@ body {
   display: flex;
   justify-content: center;
   margin-left: 39px;
-
 }
-
 
 .summary {
 }
@@ -97,7 +93,7 @@ body {
 #summary-title {
   font-weight: 800;
   font-size: 18px;
-  margin: 18px
+  margin: 18px;
 }
 
 .name-and-symbol {
@@ -175,5 +171,5 @@ button {
 }
 
 .attribution {
-    text-align: center;
+  text-align: center;
 }
