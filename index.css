@@ -23,7 +23,6 @@ body{
     }
     .result {
 
-        background-color: hsl(252, 100%, 67%);
         text-align: center;
         width: 375px;
         margin-left: -8px;
@@ -40,12 +39,21 @@ body{
 
 .result {
 
-  background-color: hsl(252, 100%, 67%);
+  background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   text-align: center;
   border-radius: 25px;
 }
 
+#score-circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+}
+
 .total-score {
+    font-size: 50px;
   color: hsl(0, 0%, 100%);
 }
 
