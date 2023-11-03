@@ -2,58 +2,52 @@ html * {
   font-family: "Hanken Grotesk";
 }
 
-body{
-    width: 1440px;
- 
+body {
+  width: 1440px;
 }
 
-.whole-component{
-    display: flex;
-    justify-content: center;
+.whole-component {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 800px) {
-    /* For mobile phones: */
-    body{
-        width: 375px;
-    }
-    .whole-component{
-        display: flex;
-        flex-direction: column;
-    }
-    .result {
-
-        text-align: center;
-        width: 375px;
-        margin-left: -8px;
-      }
-    .qualitative-comparison {
-        color: hsla(0, 0%, 100%, 0.475);
-        inline-size: 200px;
-        overflow-wrap: break-word;
-      }
+  /* For mobile phones: */
+  body {
+    width: 375px;
   }
-
-
-
+  .whole-component {
+    display: flex;
+    flex-direction: column;
+  }
+  .result {
+    text-align: center;
+    width: 375px;
+    margin-left: -8px;
+  }
+  .qualitative-comparison {
+    color: hsla(0, 0%, 100%, 0.475);
+    inline-size: 200px;
+    overflow-wrap: break-word;
+  }
+}
 
 .result {
-
   background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   text-align: center;
   border-radius: 25px;
 }
 
 #score-circle {
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-left: 10%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 10%;
 }
 
 .total-score {
-    font-size: 50px;
+  font-size: 50px;
   color: hsl(0, 0%, 100%);
 }
 
@@ -76,7 +70,6 @@ body{
 }
 
 .summary {
-
 }
 
 #summary-title {
@@ -84,24 +77,23 @@ body{
 }
 
 .name-and-symbol {
-    margin-left: 10px;
-    display: flex;
-    justify-content: flex-start;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .summary-category {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-    height: 50px;
-    width: 300px;
-    margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  margin: 10px;
 }
 
 #reaction {
   background-color: hsla(0, 100%, 67%, 0.116);
-
 }
 
 #reaction-text {
@@ -110,7 +102,6 @@ body{
 
 #memory {
   background-color: hsl(39, 100%, 56%, 0.116);
-
 }
 
 #memory-text {
@@ -119,7 +110,6 @@ body{
 
 #verbal {
   background-color: hsl(166, 100%, 37%, 0.116);
- 
 }
 
 #verbal-text {
@@ -127,34 +117,33 @@ body{
 }
 #visual {
   background-color: hsl(234, 85%, 45%, 0.116);
- 
 }
 
 #visual-text {
   color: hsl(234, 85%, 45%);
 }
 
-.percentage{
-    margin-right: 10px;
-    display: flex;
-    justify-content: flex-end;
+.percentage {
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
-.percentage-number{
-    font-weight: 800;
+.percentage-number {
+  font-weight: 800;
 }
 
 .out-of-hundred-summary {
-    font-weight: 800;
-    color: hsla(224, 30%, 27%, 0.614);
-    margin-left: 10px;
+  font-weight: 800;
+  color: hsla(224, 30%, 27%, 0.614);
+  margin-left: 10px;
 }
 
 button {
-    background-color: hsl(224, 30%, 27%);
-    color: hsl(0, 0%, 100%);
-    width: 300px;
-    height: 50px;
-    border-radius: 50px;
-    font-size: 20px;
-    border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
 }
