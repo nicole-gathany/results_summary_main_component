@@ -138,7 +138,7 @@ I want to continue working on building responsive web applications and planning 
 
 ## Acknowledgments
 
-Thank you to myself!! Thank you to myself, myself.
+*Thank you to myself!! Thank you to myself, myself.*
 
 I actually did not ask for community help on this. I almost did but I was a little bit stubborn in my approach maybe because I was shy or maybe because I really wanted to learn the content. 
 
