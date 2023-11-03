@@ -24,11 +24,21 @@ body {
     text-align: center;
     width: 375px;
     margin-left: -8px;
+    padding-left: 37px;
+    padding-right: 37px;
   }
   .qualitative-comparison {
     color: hsla(0, 0%, 100%, 0.475);
     inline-size: 200px;
     overflow-wrap: break-word;
+    margin-left: 39px;
+    margin-bottom: 32px;
+    margin-top: -8px;
+    
+  }
+
+  button {
+    font-size: 20px;
   }
 }
 
@@ -36,20 +46,35 @@ body {
   background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   text-align: center;
   border-radius: 25px;
+  width: 300px;
+  height: 377px;
+  
 }
+
+.your-result {
+    color: hsla(0, 0%, 100%, 0.475);
+    font-size: 18px;
+  }
 
 #score-circle {
   background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-left: 10%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .total-score {
   font-size: 50px;
   color: hsl(0, 0%, 100%);
+  margin-bottom: 0px;
 }
+
+.out-of-hundred {
+    color: hsla(0, 0%, 100%, 0.475);
+    margin-top: 0px;
+  }
 
 .qualitative-comparison-title {
   color: hsl(0, 0%, 100%);
@@ -57,23 +82,22 @@ body {
 
 .qualitative-comparison {
   color: hsla(0, 0%, 100%, 0.475);
-  inline-size: 290px;
+  inline-size: 217px;
   overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  margin-left: 39px;
+
 }
 
-.your-result {
-  color: hsla(0, 0%, 100%, 0.475);
-}
-
-.out-of-hundred {
-  color: hsla(0, 0%, 100%, 0.475);
-}
 
 .summary {
 }
 
 #summary-title {
   font-weight: 800;
+  font-size: 18px;
+  margin: 18px
 }
 
 .name-and-symbol {
@@ -89,7 +113,7 @@ body {
   border-radius: 10px;
   height: 50px;
   width: 300px;
-  margin: 10px;
+  margin: 18px;
 }
 
 #reaction {
@@ -144,6 +168,12 @@ button {
   width: 300px;
   height: 50px;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 14px;
   border: none;
+  margin-left: 19px;
+  margin-bottom: 20px;
+}
+
+.attribution {
+    text-align: center;
 }
