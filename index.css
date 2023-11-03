@@ -1,7 +1,33 @@
 html * {
   font-family: "Hanken Grotesk";
 }
+
+body{
+    width: 1440px;
+ 
+}
+
+.whole-component{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    body{
+        width: 375px;
+    }
+    .whole-component{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+
+
 .result {
+
   background-color: hsl(252, 100%, 67%);
   text-align: center;
 }
