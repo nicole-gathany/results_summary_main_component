@@ -42,6 +42,8 @@ body{
 
 .qualitative-comparison {
   color: hsla(0, 0%, 100%, 0.475);
+  inline-size: 290px;
+  overflow-wrap: break-word;
 }
 
 .your-result {
