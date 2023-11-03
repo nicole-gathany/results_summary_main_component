@@ -21,6 +21,18 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .result {
+
+        background-color: hsl(252, 100%, 67%);
+        text-align: center;
+        width: 375px;
+        margin-left: -8px;
+      }
+    .qualitative-comparison {
+        color: hsla(0, 0%, 100%, 0.475);
+        inline-size: 200px;
+        overflow-wrap: break-word;
+      }
   }
 
 
@@ -30,6 +42,7 @@ body{
 
   background-color: hsl(252, 100%, 67%);
   text-align: center;
+  border-radius: 25px;
 }
 
 .total-score {
@@ -63,14 +76,24 @@ body{
 }
 
 .name-and-symbol {
+    margin-left: 10px;
     display: flex;
     justify-content: flex-start;
 }
 
+.summary-category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+}
+
 #reaction {
   background-color: hsla(0, 100%, 67%, 0.116);
-  display: flex;
-  justify-content: space-between;
+
 }
 
 #reaction-text {
@@ -79,6 +102,7 @@ body{
 
 #memory {
   background-color: hsl(39, 100%, 56%, 0.116);
+
 }
 
 #memory-text {
@@ -87,6 +111,7 @@ body{
 
 #verbal {
   background-color: hsl(166, 100%, 37%, 0.116);
+ 
 }
 
 #verbal-text {
@@ -94,6 +119,7 @@ body{
 }
 #visual {
   background-color: hsl(234, 85%, 45%, 0.116);
+ 
 }
 
 #visual-text {
@@ -101,6 +127,7 @@ body{
 }
 
 .percentage{
+    margin-right: 10px;
     display: flex;
     justify-content: flex-end;
 }
@@ -111,4 +138,5 @@ body{
 .out-of-hundred-summary {
     font-weight: 800;
     color: hsla(224, 30%, 27%, 0.614);
+    margin-left: 10px;
 }
