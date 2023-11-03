@@ -26,12 +26,23 @@ html * {
   color: hsla(0, 0%, 100%, 0.475);
 }
 
+.summary {
+
+}
+
 #summary-title {
   font-weight: 800;
 }
 
+.name-and-symbol {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #reaction {
   background-color: hsla(0, 100%, 67%, 0.116);
+  display: flex;
+  justify-content: space-between;
 }
 
 #reaction-text {
@@ -62,6 +73,10 @@ html * {
 }
 
 .percentage{
+    display: flex;
+    justify-content: flex-end;
+}
+.percentage-number{
     font-weight: 800;
 }
 
