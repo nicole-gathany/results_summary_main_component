@@ -112,15 +112,15 @@ I'm proud of this css because this is the first time I'm using @media from scrat
 
 #### Javascript
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+
 ```
 I have not added js yet but I probably wil to get the json data.
 
 ### Continued development
 
 I want to continue working on building responsive web applications and planning for responsiveness in the beginning. 
+
+I also want to figure out how to make the html more dynamic uding javascript and the json files. I may come back to this project later to do that. 
 
 ### Useful resources
 
