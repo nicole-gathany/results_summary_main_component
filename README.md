@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://main--thunderous-fairy-5218bf.netlify.app/)
+- Live Site URL: [Add live site URL here](https://main--thunderous-fairy-5218bf.netlify.app/)
 
 ## My process
 
@@ -128,7 +128,7 @@ I also want to figure out how to make the html more dynamic uding javascript and
 
 ## Author
 
-- Website - [Nicole Gathany](nicolegathany.com)
+- Website - [Nicole Gathany](https://nicolegathany.com/)
 - Frontend Mentor - [@nicole-gathany](https://www.frontendmentor.io/profile/nicole-gathany)
 - Twitter - [@\_goth_brooks](https://www.twitter.com/_goth_brooks)
 
